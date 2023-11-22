@@ -18,7 +18,7 @@ public class Task01 {
             }
         // пустой треугольник
         for (int i = 0; i <= rows; i++) {
-            for (int j = rows; j > 1; j--) {
+            for (int j = rows; j > i; j--) {
                 System.out.print(" ");
             }
             for (int k = 1; k <= i; k++) {
